@@ -60,6 +60,8 @@ Configuration: $d = 768$, $n_{\text{heads}} = 12$, $n_{\text{layers}} = 12$, con
 
 ### Quick Start
 
+### Quick Start
+
 #### 1. Clone the repository:
 ```bash
 git clone [https://github.com/ArisPagonopoulos/gpt2-from-scratch-pytorch.git](https://github.com/ArisPagonopoulos/gpt2-from-scratch-pytorch.git)
