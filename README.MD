@@ -64,3 +64,15 @@ Configuration: $d = 768$, $n_{\text{heads}} = 12$, $n_{\text{layers}} = 12$, con
 ```bash
 git clone [https://github.com/ArisPagonopoulos/gpt2-from-scratch-pytorch.git](https://github.com/ArisPagonopoulos/gpt2-from-scratch-pytorch.git)
 cd gpt2-from-scratch-pytorch
+
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+
+3. Generate text with pre-trained GPT-2 (124M) weights:
+```bash
+python gpt_custom_model.py "Every journey begins with" --loaded --tokens 30 --temperature 0.8 --top_k 40
+
+Or run with randomly initialized weights:
+'''bash
+python gpt_custom_model.py "Every journey begins with" --tokens 20
