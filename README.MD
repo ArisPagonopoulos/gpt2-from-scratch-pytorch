@@ -100,14 +100,13 @@ python gpt_custom_model.py "Every journey begins with" --tokens 20
 Every journey begins with
 ```
 
-**Generated**ontinuation**
+**Generated**
 
 ```text
 Every journey begins with a single idea, and every idea can evolve
 into something much larger when given enough time and attention...
 ```
 
-*(Output will vary due to stochastic sampling.)*
 
 ---
 
